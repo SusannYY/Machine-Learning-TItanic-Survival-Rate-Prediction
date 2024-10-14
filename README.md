@@ -10,6 +10,14 @@ This project explores feature engineering and various machine learning models to
 
 - **Random Forest (RF)**: Similar to decision trees, is made of many trees. Robust and reliable for classification.
 
+  A local result after using Random Forest (average of 5 cross validations)
+  Metric | Class 0 | Class 1 | Average
+  | -----|-------- | --------|----- |
+  Precision | 0.83 | 0.81 | 0.82 (weighted)
+  Recall | 0.88 | 0.74 | 0.82 (accuracy)
+  F1-Score | 0.85 | 0.77 | 0.82 (weighted)
+  Support | 105 | 74 | 179
+
 - **Neural Networks (NN)**: A more complex model used to learn intricate relationships within the data, increasing the prediction accuracy. But not so ideal for this question.
 
 ## Key Techniques Used
